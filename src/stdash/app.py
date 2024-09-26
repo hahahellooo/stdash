@@ -30,6 +30,7 @@ plt.bar(cnt_rt.index, cnt_rt, color='#ebf301', label='Request Time', alpha=0.8) 
 plt.plot(cnt_pt.index, cnt_pt, 'ro-', label='Prediction Time') # r 선의 색상, o 포인트 마커모양
 
 # 그래프 설정
+# 한국어로 설정시 따로 폰트설정 필요
 plt.title('Requests by Date and Time')
 plt.xlabel('Date and Time')
 plt.ylabel('Number Of Requests')
