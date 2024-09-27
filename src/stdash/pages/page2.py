@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import requests
 import datetime as dt
 import os
-
+st.markdown("# Request and Prediction User")                                               
+st.sidebar.markdown("# Request and Prediction User")
 def load_data():
     url = 'http://43.202.66.118:8077/all'
     r = requests.get(url)

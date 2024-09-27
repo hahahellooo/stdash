@@ -30,8 +30,8 @@ plt.plot(cnt_pt.index, cnt_pt, 'ro-', label='Prediction Time') # r 선의 색상
 
 # 막대 그래프: 요청 시간별 건수
 plt.bar(cnt_rt.index, cnt_rt, color='#ebf301', label='Request Time', alpha=0.8) # alpha 투명도 조절
-                                                                                           # 그래프 설정
-                                                                                           plt.title('Requests by Date and Time')
+
+plt.title('Requests by Date and Time')
 plt.xlabel('Date and Time')
 plt.ylabel('Number Of Requests')
 plt.xticks(rotation=45)  # X축 레이블 회전 (텍스트가 길 경우)

@@ -6,7 +6,7 @@ import datetime as dt
 import os
 
 st.markdown("# CNN JOB MON")
-st.sidebar.markdown("# Main paged")
+st.sidebar.markdown("# Main page")
 
 def load_data():
     url = 'http://43.202.66.118:8077/all'
