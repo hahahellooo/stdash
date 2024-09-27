@@ -10,9 +10,11 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 COPY src/stdash/app.py /code/
+#COPY requirements.txt /code/
 
 RUN pip install --no-cache-dir --upgrade git+https://github.com/hahahellooo/stdash.git@0.3/docker
 
+#RUN pip3 install -r requirements.txt
 
 EXPOSE 8501
 
