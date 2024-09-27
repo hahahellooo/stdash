@@ -1,0 +1,110 @@
+absl-py==2.1.0
+adjustText==1.2.0
+annotated-types==0.7.0
+anyio==4.4.0
+astunparse==1.6.3
+attrs==24.2.0
+branca==0.7.2
+certifi==2024.7.4
+charset-normalizer==3.3.2
+click==8.1.7
+click-plugins==1.1.1
+cligj==0.7.2
+contourpy==1.3.0
+cycler==0.12.1
+fastapi==0.115.0
+fiona==1.10.0
+fire==0.6.0
+fish @ file:///home/hahahellooo/homework/fishml_me
+fishml_me @ file:///home/hahahellooo/homework/fishml_me
+fishmlserv @ file:///home/hahahellooo/code/fishmlserv
+fishregression @ file:///home/hahahellooo/code/fishregression
+flatbuffers==24.3.25
+folium==0.17.0
+fonttools==4.53.1
+gast==0.6.0
+geopandas==1.0.1
+google-pasta==0.2.0
+grpcio==1.66.1
+h11==0.14.0
+h5py==3.11.0
+holjjagml==0.1.1
+httptools==0.6.1
+idna==3.7
+imageio==2.35.1
+iniconfig==2.0.0
+Jinja2==3.1.4
+joblib==1.4.2
+keras==3.5.0
+kiwisolver==1.4.5
+kmeans==1.0.2
+lazy_loader==0.4
+libclang==18.1.1
+Markdown==3.7
+markdown-it-py==3.0.0
+MarkupSafe==2.1.5
+matplotlib==3.9.2
+mdurl==0.1.2
+ml-dtypes==0.4.1
+mnist @ file:///home/hahahellooo/code/mnist
+mov @ file:///home/hahahellooo/code/mov
+mov_agg @ file:///home/hahahellooo/code/mov_agg
+movdata @ file:///home/hahahellooo/code/movdata
+namex==0.0.8
+networkx==3.3
+numpy==1.26.4
+opencv-python==4.10.0.84
+opt-einsum==3.3.0
+optree==0.12.1
+packaging==24.1
+pandas==2.2.2
+pillow==10.4.0
+pluggy==1.5.0
+protobuf==4.25.5
+pyarrow==17.0.0
+pydantic==2.8.2
+pydantic_core==2.20.1
+pydot==3.0.1
+pyfiglet==1.0.2
+Pygments==2.18.0
+PyMySQL==1.1.1
+pyogrio==0.9.0
+pyparsing==3.1.4
+pyproj==3.6.1
+pytest==8.3.2
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+python-multipart==0.0.9
+pytz==2024.2
+PyYAML==6.0.2
+requests==2.32.3
+rich==13.8.0
+samdul21food @ file:///home/hahahellooo/code/samdul21food
+scikit-image==0.24.0
+scikit-learn==1.5.2
+scipy==1.14.1
+shapely==2.0.6
+shellingham==1.5.4
+six==1.16.0
+sniffio==1.3.1
+spark_flow @ file:///home/hahahellooo/code/spark_flow
+starlette==0.38.4
+tensorboard==2.17.1
+tensorboard-data-server==0.7.2
+tensorflow==2.17.0
+tensorflow-io-gcs-filesystem==0.37.1
+termcolor==2.4.0
+threadpoolctl==3.5.0
+tifffile==2024.9.20
+tqdm==4.66.5
+typer==0.12.5
+typing_extensions==4.12.2
+tzdata==2024.1
+urllib3==2.2.2
+uvicorn==0.30.6
+uvloop==0.20.0
+watchfiles==0.24.0
+websockets==13.0.1
+Werkzeug==3.0.4
+wrapt==1.16.0
+xyzservices==2024.9.0
