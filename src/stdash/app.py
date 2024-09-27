@@ -15,6 +15,7 @@ st.sidebar.title('Analysis')
 
 data = load_data()
 df = pd.DataFrame(data)
+df
 
 def graph_time():
 
