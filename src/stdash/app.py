@@ -39,9 +39,9 @@ def graph_time():
     plt.ylabel('Number Of Requests')
     plt.xticks(rotation=45)  # X축 레이블 회전 (텍스트가 길 경우)
     plt.legend()
+# 그래프 출력
     st.pyplot(plt)
 
-# 그래프 출력
 if st.sidebar.button('Step1'):
    graph_time()
 
@@ -58,8 +58,8 @@ def graph_user():
     plt.xticks(rotation=45, ha='right')  # X축 레이블 회전 (텍스트가 길 경우) # ha = 'right' 레이블이 오른쪽정렬
     plt.legend()
 
-    st.pyplot(plt)
 # 그래프 출력
+    st.pyplot(plt)
 
 if st.sidebar.button('Step2'):
     graph_user()
