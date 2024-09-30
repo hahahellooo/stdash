@@ -21,7 +21,7 @@ df2_sorted = df2.sort_index(ascending=True)
 df4_sorted = df4.sort_index(ascending=True)
 plt.plot(df4_sorted.index, df4_sorted, 'ro-', label = 'request user')
 plt.bar(df2_sorted.index, df2_sorted, color='#ebf301', label = 'prediction user')
-plt.title('Request and Prediction User')
+plt.title('Request by User and Prediction User')
 plt.xlabel('Request and Prediction User')
 plt.ylabel('Number Of Requests')
 plt.xticks(rotation=45, ha='right')  # X축 레이블 회전 (텍스트가 길 경우) # ha = 'right' 레이블이 오른쪽정렬
