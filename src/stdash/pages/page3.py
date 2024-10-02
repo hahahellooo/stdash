@@ -12,7 +12,7 @@ def upload_file():
     img_file = st.file_uploader('Upload image file', type=['png','jpg','jpeg'])
     if img_file is not None:
         files = {"file":(img_file.name, img_file.getvalue(), img_file.type)}
-        response = requests.post(url, files=file)
+        response = requests.post(url, files=files)
         if response.status_code == 200:
             st.success("🎉Image uploaded successfully🎉")
             st.write(response.json())
